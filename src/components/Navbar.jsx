@@ -1,10 +1,21 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav style={{padding:"10px", background:"#333", color:"#fff"}}>
-        <h2>DevTrack AI</h2>
+  <nav className="navbar navbar-custom bg-dark px-4">
+      <span className="navbar-brand">DevTrack AI 🚀</span>
+
+      <div>
+        <Link to="/" className="text-white me-3 text-decoration-none">
+          Home
+        </Link>
+
+        <Link to="/stats" className="text-white text-decoration-none">
+          Status
+        </Link>
+      </div>
     </nav>
-    );
-    }   
+  );
+}
 export default Navbar;

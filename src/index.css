@@ -1,0 +1,37 @@
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+}
+button {
+  border-radius: 10px !important;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.gradient-text {
+   color: #ffffff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-custom {
+  background: linear-gradient(90deg, #cbb7ce, #407f94, #bd0dbd);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #00d4ff !important;
+}
