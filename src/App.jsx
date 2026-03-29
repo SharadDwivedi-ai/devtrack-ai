@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import Home from './pages/Home'
+import React from 'react';
+import Home from './pages/Home';
 
 function App() {
-  return <Home  />
+  return (
+    <Home />
+  )
 }
 
-export default App
+export default App;
